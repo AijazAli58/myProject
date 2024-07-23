@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 import { useState, useEffect, React } from 'react';
 import { Navbar, Header, Main, Footer, Reservations, OrderOnline } from './components';
@@ -83,6 +84,15 @@ function App() {
           <Footer />
 
       </>
+=======
+import React from 'react';
+
+function App() {
+  return (
+    <div className="App">
+      Homepage
+    </div>
+>>>>>>> 988d8580b3ddd6ce3da4d860b367c0ff2078ed3a
   );
 }
 
