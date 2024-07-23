@@ -9,10 +9,9 @@ import { pulse } from 'react-animations';
 const Pulse = styled.div`animation: 5s ${keyframes`${pulse}`} infinite`;
 
 const reviews = [
-    {image: images.iqsf, name: "IQSF", reviewText: "Review rext rext lorem ipsudolar"},
-    {image: images.sajal, name: "Sajal", reviewText: "Review rext rext lorem ipsudolar"},
-    {image: images.ramsha, name: "Ramsha", reviewText: "Review rext rext lorem ipsudolar"},
-    {image: images.mawra, name: "Mawra", reviewText: "Review rext rext lorem ipsudolar"},
+    {image: images.iqsf, name: "Faiza", reviewText: "Review rext rext lorem ipsudolar"},
+    {image: images.sajal, name: "Sanam", reviewText: "Review rext rext lorem ipsudolar"},
+ 
 ]
 
 const ReviewCard = ({props}) => {
